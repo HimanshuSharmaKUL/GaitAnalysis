@@ -1,4 +1,6 @@
-%KNN Classification code to authenticate a person
+%KNN Classification code to authenticate a person for Dataset A
+%Path in uigetfile() function needs to be changed according to requirement.
+%Authenticaion not performed in this code
 clear
 clc
 [fname_tr, pname_tr]= uigetfile({'*.png;*.jpeg;*.jpg','Image Files(*.png,*.jpeg,*.jpg)'},'Select a file','F:\New folder (3)\New Folder (2)\silhouettes_matlab\KNN\train\', 'MultiSelect', 'on');
