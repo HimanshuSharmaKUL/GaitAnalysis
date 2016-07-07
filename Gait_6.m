@@ -1,6 +1,7 @@
 %Date- 11/06/2016
-%Gait Size normalization for 0(degree) (Atleast)
-
+%By- Himanshu Sharma
+%Gait Size normalization for 0(degree) CASIA DatasetB
+%Path needs to be changed accordingly
 clear
 for i=1:91 %cir
     B=0;
